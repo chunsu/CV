@@ -1,0 +1,312 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+
+
+\newcommand\bioSkills{ 
+~
+\smartdiagramset{
+    bubble center node color = lightgray,
+    set color list = {materiallime,pblue,materialteal,materialorange,materialamber,materialgreen,materialteal}
+    }
+	\smartdiagram[bubble diagram]{
+        \textbf{~~~BIOLOGY~~~~~~},
+        \textbf{Molecular}\\\textbf{Biology}, 
+        \textbf{Disease}\\\textbf{Model},
+        \textbf{In vivo}\\\textbf{Imaging},
+        \textbf{Screening},
+        \textbf{Memory}\\\textbf{Tests},
+        \textbf{Immuno-}\\\textbf{fluorescence}
+        }
+ }   
+%\textbf{PCR}\\\textbf{qPCR},
+        %\textbf{Sequencing},
+        %\textbf{Immuno-}\\\textbf{labelling},
+        %\textbf{Western}\\\textbf{Blot},
+        %\textbf{Confocal}\\\textbf{Microscopy},    
+\newcommand\softwareSkills{ 
+~
+
+\smartdiagramset{
+  % set center bubble color
+    bubble center node color = pblue,
+    % define the list of colors usable in the diagram
+    set color list = {lightgray, materialcyan, orange, green, materialorange, materialteal, materialamber, materialindigo, materialgreen, materiallime}
+    }
+	\smartdiagram[bubble diagram]{
+        \textbf{~COMPUTING~},
+        \textbf{~~~MS~~~}\\\textbf{Office},
+        \textbf{Statistical}\\\textbf{Analysis},
+        \textbf{Adobe}\\\textbf{Suite},
+        \textbf{Data}\\\textbf{Management},
+        \textbf{\LaTeX},
+        \textbf{Image}\\\textbf{Processing}
+    }
+}
+
+\projects{
+\\
+$\cdot$ Neural representations of airflow in \emph{Drosophila} mushroom body\\
+$\cdot$ Mechanisms of antiprostate cancer by gum mastic: NF-$\kappa$B signal as target
+}
+
+\activities{
+\\
+City of London Go club$\cdot$ Graduate consulting club $\cdot$ Basel Wettstein Kompost $\cdot$ Basel Chinese snowriders club 
+}
+
+% Projects text
+\languages{
+\\
+English $\cdot$ Chinese $\cdot$ German
+}
+
+\Interests{
+\\
+Skiing $\cdot$ Running $\cdot$ Opera $\cdot$ Perfumery
+}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Chunsu Xu} % Your name
+\cvjobtitle{PhD, Neuroscience } % Job
+% title/career
+
+\cvvisa {}
+\cvlinkedin{/in/chunsu-xu}
+\cvnumberphone{	+44 7756 825411} % Phone number
+\cvmail{xuchunsu101@gmail.com} % Email address
+\cvgithub{chunsu}
+
+\aboutme{
+
+I’m a neuroscientist interested in next-generation solutions for pressing social challenges. Having managed multi-disciplinary projects in scientific research, I liaised with engineer teams, data platform and programmers on a regular basis. At spare time, I engaged in discussions concerning sustainability issues in environmental and social terms. 
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Key skills}
+\twentyitem
+        [1.0] %optional textwidth multiplier
+   		{}
+		{}
+        {Management/Delivery}
+        {}
+        {}
+        {
+        % \vspace{0.8mm}
+        \begin{itemize}
+            \item Delivered eight projects on time within 7 months at Biozentrum (Basel) resulting the recruitment of two PhD students
+            \item Designed an intricate drosophila behaviour platform at two institutes. Operated it as a managed facility, training multiple users
+            \item Liaised with machine shops and industrial suppliers to design and produce customized parts and consumables for the behaviour platform
+           \end{itemize}}
+        
+\twentyitem
+        [1.0] %optional textwidth multiplier
+  		{}
+		{}
+        {Collaboration/Communication}
+        {}
+        {}
+        {
+        % \vspace{0.8mm}
+        \begin{itemize}
+            \item Working with the Basel imaging facility to beta test new data workflow services and microscopy systems. Introducing these features to users. 
+            \item Presenting regularly at both large international conferences like Society for Neuroscience and institute-wide symposia
+            \item Event organizer for off-line social networks: London PhD Network, Basel Chinese “Snow Rider” club
+          
+        \end{itemize}}
+        
+\twentyitem
+        [1.0] %optional textwidth multiplier
+  		{}
+		{}
+        {Strategy/Consulting}
+        {}
+        {}
+        {
+        % \vspace{0.8mm}
+        \begin{itemize}
+            \item Aiding \href{http://www.ucl.ac.uk/swc}{SWC} microscopy platform roll-out: comparing user booking systems; the design, layout and placement of lab space as well as webpage space
+            \item Developed a new drosophila memory training protocol which is vastly faster and easier to set up than all existing approaches. 
+        \end{itemize}}        
+
+\twentyitem
+        [1.0] %optional textwidth multiplier
+  		{}
+		{}
+        {Programming}
+        {}
+        {}
+        {
+        % \vspace{0.8mm}
+        \begin{itemize}
+            \item Wrote scripts in Perl for selecting gene candidates from the biggest drosophila anatomical library
+            \item Solid understanding of microscopy digital image analysis
+            % : deconvolution and co-localisation
+            \item Maintain and modify MATLAB scripts for delivery of olfactory stimuli and data acquisition
+        \end{itemize}} 
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem %\twentyitem[optional \textwidth multiplier]{<dates>}{<title>}{<organization>}{<location>}{<description>}
+    	{Jul 2018 -}
+		{present}
+        {Self employed}
+        {}
+        {}
+        {Consulting services for imaging facilities }
+        \\
+\twentyitem %\twentyitem[optional \textwidth multiplier]{<dates>}{<title>}{<organization>}{<location>}{<description>}
+    	{Nov 2017 -}
+		{May 2018}
+        {Project manager}
+        {\href{https://www.biozentrum.unibas.ch/home/}{Biozentrum, Basel, CH}}
+        { }
+        {Project planning and tracking; defining key objectives and generating progress reports for multiple interconnected projects 
+        %  \item Testing, validating and documenting a panel of developmental gene markers at different embryonic stages in \textit{drosophila}
+        %  \item Lab data management with OMERO, the open microscopy environment to ensure compliance with data integrity guidelines from funding bodies 
+        }
+        \\
+\twentyitem
+    	{May 2016 -}
+		{Sep 2017}
+        {Postdoc fellow (lab relocation)}
+        {\href{http://www.uni-kl.de/en/home/}{Technische Universität Kaiserslautern, DE}}
+        { }
+        { Identified and characterized a protein phosphatase adapter as being the first endogenous post-synaptic marker in \textit{drosophila} adult brain.  \textit {Scientific publication in preparation}
+    % \item Re-established and streamlined a complex and demanding memory testing platform for the whole research group
+    % \item Teaching physiology and zoology practical courses % to undergraduate and graduate students
+    % \item Training technicians on molecular cloning 
+       }
+        \\
+        
+	\twentyitem
+    	{Oct 2014 -}
+		{Apr 2016}
+        {Postdoc fellow}
+        {\href{http://www.fmi.ch/}{Friedrich Miescher Institute, Basel, CH}}
+        { }
+        { Independently designed and built a behaviour platform to test both short and long term memories in \textit{drosophila}
+    % \item Conducting secondary screening for selecting genetic candidates affecting synaptic organization in \textit{drosophila} central nerve system
+    
+   % \item \textbf{Quality control}: engage with facilities staff to ensure high quality and consistent consumable supplies. 
+   %\item \textbf{Design} and documentation of new lab equipment and protocols. 
+    }
+
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 RESEARCH/EDUCATION
+%----------------------------------------------------------------------------------------
+
+
+\section{Education}
+    \twentyitem
+        [0.88] %optional textwidth multiplier
+   		{2009 \hspace{5mm}}
+		{2014 \hspace{5mm}}
+        {Doctoral studies}
+        {\href{http://www.cshl.edu/}{Cold Spring Harbor Laboratory, NY, USA}}
+        { }
+        {
+        \vspace{0.5mm}
+        Title: The Role of NF1 in \textit{Drosophila} Appetitive Long Term Memory.
+        % \begin{itemize}
+        %     \item 
+            Established a fly neurofibromatosis type 1 model to investigate how and where gene NF1 is affecting long term memory
+            % \item Experimental design, planning, execution and data visualization 
+            %\item Handling data from animal psychology to microscopy images.
+            %\item \textbf{Statistics \& data visualization} in Origin and MATLAB
+            % \item \textbf{Scientific communication}: presentations at international conferences and scientific workshops
+        % \end{itemize}
+        }
+
+
+
+     \twentyitem
+        [0.88] %optional textwidth multiplier
+   		{2007 \hspace{5mm}}
+		{2009 \hspace{5mm}}
+        {Graduate student (PhD Candidate)}
+        {\href{http://www.stonybrook.edu/}{Stony Brook University, NY, USA}}
+        { }
+        {
+        \begin{itemize}
+            \item Imaging neural activity in brains of living fruit flies with two-photon microscopy. 
+                  This work led to a scientific publication
+            \item Lecturer on Animal Physiology Lab Practical courses
+        \end{itemize}
+    	}
+
+
+
+     \twentyitem
+         [0.88]
+   		{2002 \hspace{5mm}}
+		{2006 \hspace{5mm}}
+        {B.Sc. Hons. 1\supr{st} Biotechnology}
+        {\href{http://en.tongji.edu.cn/}{Tongji University, Shanghai, China}}
+        { }
+        {
+        % \begin{itemize}
+           %\item Calculus, linear algebra, statistics, biochemistry, molecular biology, immunology, physiology, genetics \& anatomy.
+        %   \item Biochemistry, molecular biology, immunology, physiology, genetics, statistics, calculus, animal engineering \& anatomy
+           Member of the Student Board
+        %   \item Graduate with 1\supr{st} honor
+        % \end{itemize}
+    	}
+
+
+% \section{Publications}
+% \begin{itemize}
+% \item Neural representations of airflow in \emph{Drosophila} mushroom body. \item Mechanisms of antiprostate cancer by gum mastic: NF-$\kappa$B signal as target.
+
+% \end{itemize}
+
+% \section{Other activities}
+
+% {\\
+% London Chinese PhD network $\cdot$ Basel graduate consulting club $\cdot$ Basel Wettstein Kompost $\cdot$ Basel Chinese snowriders club 
+% % Novartis NIBR experience $\cdot$ 
+% % $\cdot$ Lab management and leadership workshop 
+% }
+
+\end{document} 
